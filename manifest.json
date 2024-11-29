@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "快乐文字装饰器",
+  "version": "1.0",
+  "description": "为网页添加可爱的表情符号",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "快乐文字装饰器"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+} 
