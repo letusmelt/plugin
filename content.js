@@ -1,5 +1,5 @@
 // 添加一个简单的提示，确认脚本在运行
-console.log('emoji装饰器已启动！');
+console.log('Happy Christmas Emoji Decorator is running!');
 
 function addEmojis() {
     const walker = document.createTreeWalker(

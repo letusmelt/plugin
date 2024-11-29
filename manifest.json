@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "快乐文字装饰器",
+  "name": "Happy Christmas Emoji Decorator",
   "version": "1.0",
-  "description": "为网页添加可爱的表情符号",
+  "description": "decorate your web page with happy christmas emojis",
   "permissions": [
     "activeTab",
     "scripting"
   ],
   "action": {
-    "default_title": "快乐文字装饰器"
+    "default_title": "Happy Christmas Emoji Decorator"
   },
   "host_permissions": [
     "<all_urls>"
